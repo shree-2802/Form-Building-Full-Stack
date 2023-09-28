@@ -1,0 +1,198 @@
+body {
+  height: 85vh;
+  display: flex;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  background-color: aliceblue;
+}
+.divLogo {
+  opacity: 0.5;
+}
+.body1 {
+  display: flex;
+  justify-content: center;
+}
+#root {
+  width: 100%;
+}
+.entireContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.header1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  align-items: center;
+}
+.innerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+.inputBox {
+  width: 250px;
+  font-size: 16px;
+  color: grey;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.label {
+  display: flex;
+  margin-left: -127px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.division {
+  display: inline-flex;
+}
+.form {
+  width: 300px;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  border-style: none;
+  border-radius: 3px;
+  padding: 30px;
+  box-shadow: 0 0 20px -2px rgba(82, 73, 73, 0.89);
+}
+input[type="text"]:focus {
+  border: none;
+}
+.tableViewButton {
+  padding: 12px 16px;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(57, 134, 134);
+  border-style: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.15s;
+  font-weight: bold;
+  font-size: 16px;
+}
+.tableViewButton:active {
+  padding: 12px 16px;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(57, 134, 134);
+  border-style: none;
+  box-shadow: 0 0 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+  padding-right: 350px;
+}
+
+.submitBtn {
+  padding: 12px 16px;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(73, 196, 79);
+  border-style: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.15s;
+  font-weight: bold;
+  font-size: 16px;
+}
+.errorMessage {
+  width: 250px;
+  font-size: 16px;
+  color: rgb(185, 44, 44);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-color: rgb(185, 44, 44);
+  border-style: solid;
+  border-width:1px;
+  border-radius: 2px;
+}
+/* .body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.header {
+  flex: 1;
+}
+.divLogo {
+  height: 100px;
+  width: 100px;
+  padding-top: 25px;
+  padding-left: 100px;
+}
+.content {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.innerContent {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-evenly;
+  flex: 1;
+  width: 100%;
+}
+.label {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputBox,.inputBox:active {
+  padding: 4px 60px 4px 8px;
+  font-size: 18px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+.footer {
+  flex: 1;
+  display: flex;
+  justify-content:end;
+}
+.submitBtn {
+  padding: 8px 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: green;
+}
+.submitBtn:hover{
+    padding: 8px 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: green;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.5);
+}
+.errorMessage {
+  border-color: darkred;
+  color: darkred;
+  padding: 4px 60px 4px 8px;
+  font-size: 18px;
+}
+ */
